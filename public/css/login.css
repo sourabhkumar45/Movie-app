@@ -1,0 +1,56 @@
+body {
+  color: #fff;
+  background: url("../img/netflix-background.jpeg") no-repeat center center
+    fixed;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  box-shadow: 10px 10px 175px 12px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 10px 10px 175px 12px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 10px 10px 175px 12px rgba(0, 0, 0, 0.75) inset;
+}
+.navbar {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  padding: 0 2.5vw;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 80%;
+  width: 20%;
+}
+.login-form {
+  width: 340px;
+  margin: 50px auto;
+}
+.login-form form {
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.login-form h2 {
+  margin: 0 0 15px;
+}
+.form-control,
+.btn {
+  min-height: 38px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.form-control:focus {
+  border-color: rgb(213, 91, 91) !important;
+}
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+}
+.login-form {
+  color: rgb(213, 91, 91) !important;
+}

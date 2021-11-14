@@ -20,7 +20,6 @@ app.get("/login", (req, res) => {
 });
 
 app.get("/:id", (req, res) => {
-  console.log(req.params);
   res.sendFile(path.join(initial_path, "about.html"));
 });
 

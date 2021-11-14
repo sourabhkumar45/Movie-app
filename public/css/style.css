@@ -21,10 +21,23 @@ body {
   padding: 0 2.5vw;
   display: flex;
   align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 30%;
+  /*     left:40%; */
+  font-family: "Lato", sans-serif;
 }
 
 .logo {
-  height: 30%;
+  height: 10%;
+  width: 20%;
 }
 
 .join-box {

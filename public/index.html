@@ -4,22 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netflix : Homepage</title>
+    <link
+      rel="shortcut icon"
+      href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Movie App</title>
 
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar">
-      <a href="#"> <img src="img/logo.png" class="logo" alt="" /></a>
+      <a href="/"> <img src="img/logo.png" class="logo" alt="" /></a>
       <div class="join-box">
         <p class="join-msg">unlimited tv shows & movies</p>
         <button class="btn join-btn">
-          <a href="signup.html" style="text-decoration: none; color: white"
+          <a href="/signup" style="text-decoration: none; color: white"
             >join now</a
           >
         </button>
-        <button class="btn">sign in</button>
+        <button class="btn"><a href="/login" style="text-decoration: none; color: white"
+          >sign in</a</button>
       </div>
     </nav>
 
@@ -49,7 +62,10 @@
 
         </div> -->
     </header>
-
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
     <script src="js/api.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/home.js"></script>
